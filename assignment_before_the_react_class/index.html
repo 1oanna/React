@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment by Ioanna Talasli preparation app before react lesson 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>A single page website with 3 navigation items created by Ioanna Talasli as preparation assignment for lesson 1 on react</h1>
+
+        <ul id="nav">
+          <li><a href="#postsCnt" target="_blank">Posts</a></li>
+          <li><a href="#Times" target="_blank">Times</a></li>
+          <li><a href="#Profile" target="_blank">Profile</a></li>
+      </ul> 
+    </header>
+
+    <main id="stage">
+    	<section id="postsCnt" class="">
+	        <h2>Posts</h2> 
+	        <ul id="Posts"> </ul>
+	    </section>
+
+	    <section id="Times" class="dn">
+			<h2>Times</h2> 
+			<div id="timesAthens"></div>
+			<div id="timesParis"></div>
+			<div id="timesLondon"></div>
+			
+	    </section>
+
+	    <section id="Profile" class="dn">
+
+	        <h2>Profile</h2>
+
+	        <form action="action_page.php">
+	            <div class="imgcontainer">
+	                <img src="img_avatar2.png" alt="Avatar" class="avatar">
+	            </div>
+
+	            <div class="container">
+	                <label for="name"><b>Name</b></label>
+	                <input type="text" placeholder="Please Enter Your Name" name="name" required>
+
+	                <label for="surname"><b>Surname</b></label>
+	                <input type="text" placeholder="Please Enter Your Surname" name="surname" required>
+
+	                <label for="email"><b>Email Address</b></label>
+	                <input type="text" placeholder="Please Enter Your email-address" name="email" required>
+
+	                <label for="psw"><b>Password</b></label>
+	                <input type="password" placeholder="Please Enter Your Password" name="psw" required>
+
+	                <button type="submit">Login</button>
+	                <label>
+	                <input type="checkbox" checked="checked" name="remember"> Remember me
+	                </label>
+	            </div>
+
+	            <div class="container" style="background-color:#f1f1f1">
+	                <button type="button" class="cancelbtn">Cancel</button>
+	                <span class="psw">Forgot <a href="#">password?</a></span>
+	            </div>
+	        </form>
+		</section>
+    </main>    
+
+
+<!-- Scripts -->
+    <script src="js/main.js"></script>
+
+    </body>
+</html>
