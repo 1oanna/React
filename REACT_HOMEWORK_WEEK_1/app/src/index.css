@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.todoList { background: #cc00cc }
+
+.todoItem { background: #3399ff }
