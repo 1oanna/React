@@ -75,7 +75,7 @@ Deadline : 06/06/2018 ---- Submission Date : 06/06/2018
 
 Base your week 2 homework on the result of week 1.
 
-When you are done update your PR from week 1.
+
 
 Outline
 Extend your todo list app with dynamic rendering of items based on the following JSON list:
