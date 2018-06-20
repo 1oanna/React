@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans;
+}
+
+.App > header > h1 {
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #ddd;
+}
+
+.stage {
+	margin-top: 1rem;
+}
+
+.addNewCnt {
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #ddd;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.addNewCnt > div {
+	flex: 1;
+	flex-flow: row nowrap;
+}
+
+.addNewCnt .txtNew {
+	margin-left: 1rem;
+}
+
+
+.btnAddNew {	
+	cursor: pointer;
+	border: 1px solid #ccc;
+	background: #eee;
+	padding: 0.7rem 1.3rem;
+}
+
+.todoCnt {
+	margin-top: 2rem;
+}
+
+.todoList {
+	width: 50%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.todoList .todoItem {
+	margin-bottom: 0.5rem; 
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 0.8rem 1rem;
+	background: #f6f6f6;
+}
+
+.todoList .todoItem .cell:first-child {
+	width: 2rem;
+}
+
+.todoList .todoItem .cell.descr {
+	flex: 1;
+}
+
+.todoCnt .todoItem.done {
+	text-decoration: line-through;
+} 
+
+.todoCnt .todoItem .descr .title {
+	font-weight: bold;
+}
+
+.todoCnt .todoItem .descr .deadline {
+	font-style: italic;
+	margin-left: 1rem;
+}
+
+.inlineButtons {
+	display: inline-block;
+}
+
+.btnSmall {
+	margin-left: 0.3rem;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	background: #eee;
+	padding: 7px 10px;
+}
+
+.btnSmall.edit {
+	background: #74aeca;
+}
+
+.btnSmall.remove {
+	background: #d87777;
+}
+
+.btnSmall.update {
+	background: #47a94b;
+}
+
+.btnSmall:first-child {
+	margin-left: 0;
+}
